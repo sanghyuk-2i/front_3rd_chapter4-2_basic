@@ -1,4 +1,34 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Light.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 300;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Medium.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 600;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Bold.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 700;
+    font-style: bold;
+}
 
 
 body {
@@ -101,12 +131,8 @@ section.hero img {
     width: 100%;
     height: auto;
     filter: brightness(50%);
-    display: none;
 }
 
-section.hero img.desktop {
-    display: initial;
-}
 
 .hero-content {
     position: absolute;
@@ -477,13 +503,6 @@ footer .copyright-text {
         display: inline-block;
     }
 
-    section.hero img.desktop {
-        display: none;
-    }
-
-    section.hero img.tablet {
-        display: initial;
-    }
 
     .hero-content h1 {
         font-size: 40px;
@@ -614,14 +633,6 @@ footer .copyright-text {
     header .logo .blue-dot {
         width: 7px;
         height: 7px;
-    }
-
-    section.hero img.tablet {
-        display: none;
-    }
-
-    section.hero img.mobile {
-        display: initial;
     }
 
     .hero-content {
